@@ -375,15 +375,15 @@ def api_handler():
             "message": f"Service error: {str(e)}",
             "solution": "Try again later or contact support",
             "url": url,
-            "developer": "@Farooq_is_king"
+            "developer": "@kdmodsind"
         }), 500
 
 @app.route('/')
 def home():
     """Home endpoint with service information"""
     return jsonify({
-        "status": "API Running",
-        "developer": "@Farooq_is_king",
+        "status": "KD API Running",
+        "developer": "@kdmodsind",
         "usage": "/api?url=TERABOX_SHARE_URL",
         "supported_domains": SUPPORTED_DOMAINS,
         "cookie_status": "valid",
