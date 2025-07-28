@@ -1,0 +1,6 @@
+Flask[async]
+aiohttp
+requests
+gunicorn
+fake-useragent
+Flask
