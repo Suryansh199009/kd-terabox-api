@@ -1,3 +1,5 @@
-name = "elitekd-tera-api"
-main = "api/index.py"  # ya jo bhi tumhara entry point file ho
-compatibility_date = "2025-07-28"
+{
+  "name": "elitekd-tera-api",
+  "main": "api/index.py", // ya jo bhi tumhara entry point ho
+  "compatibility_date": "2025-07-28"
+}
