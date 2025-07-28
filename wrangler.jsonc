@@ -1,0 +1,3 @@
+name = "elitekd-tera-api"
+main = "src/index.js"  # ya jo bhi tumhara entry point file ho
+compatibility_date = "2025-07-28"
