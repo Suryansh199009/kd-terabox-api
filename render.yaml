@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: terabox-api
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    autoDeploy: true
